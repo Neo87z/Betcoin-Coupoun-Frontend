@@ -104,7 +104,7 @@ export default class FormSubmission extends React.Component {
     var StatusData = "";
 
 
-    axios.post('http://localhost:8089/Merch/RegisterWallet', User)
+    axios.post('https://betcoinbackendcopuon.herokuapp.com/Merch/RegisterWallet', User)
       .then(res =>
 
         this.setState({ Age: res.data.Status }));

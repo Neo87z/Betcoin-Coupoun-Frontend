@@ -204,7 +204,7 @@ export default class FormSubmission extends React.Component {
 
                     <div className="flex flex-wrap -mx-3 mt-6">
                       <div className="w-full px-3">
-                        <button type="submit" className="btn text-white bg-purple-600 hover:bg-purple-700 w-full">Sign up</button>
+                        <button type="submit" style={{background:"#23894D"}} className="btn text-white  hover:bg-purple-700 w-full">REDEEM REWARD</button>
                       </div>
                     </div>
                   </form>

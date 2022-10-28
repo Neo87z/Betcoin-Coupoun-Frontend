@@ -171,7 +171,7 @@ export default class FormSubmission extends React.Component {
 
                 {/* Page header */}
                 <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-                  <h1 className="h1">Reddem Your Betcoin Coupon.</h1>
+                  <h1 className="h1">Redeem Your Betcoin Coupon.</h1>
                 </div>
 
                 {/* Form */}
@@ -200,7 +200,7 @@ export default class FormSubmission extends React.Component {
                     </div>
                     <div className="flex flex-wrap -mx-3 mt-6">
                       <div className="w-full px-3">
-                        <button type="submit" className="btn text-white bg-purple-600 hover:bg-purple-700 w-full">Redeem</button>
+                        <button type="submit" style={{background:"#23894D"}}className="btn text-white  hover:bg-purple-700 w-full">Redeem</button>
                       </div>
                     </div>
                   </form>

@@ -98,7 +98,7 @@ export default class FormSubmission extends React.Component {
     var StatusData = "";
 
 
-    axios.post('https://betcoinbackendcopuon.herokuapp.com/Merch/ValidateToken', User)
+    axios.post('https://datatrackerbetcoin.herokuapp.com/Merch/ValidateToken', User)
       .then(res =>
 
 

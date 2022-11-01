@@ -5,6 +5,10 @@ import Header from '../partials/Header';
 import PageIllustration from '../partials/PageIllustration';
 import { ToastContainer, toast } from 'react-toastify';
 
+import HeroImage from '../images/bet1.png';
+import HeroImage2 from '../images/bet2.png';
+import HeroImage3 from '../images/bet3.png';
+import HeroImage4 from '../images/bet4.png';
 import 'react-toastify/dist/ReactToastify.css';
 export default class FormSubmission extends React.Component {
   constructor(props) {
@@ -135,7 +139,7 @@ export default class FormSubmission extends React.Component {
         progress: undefined,
       });
       this.sleep(2000).then(r => {
-        window.location = `/`
+        window.location = `/congratz`
       })
 
 
@@ -208,8 +212,24 @@ export default class FormSubmission extends React.Component {
                       </div>
                     </div>
                   </form>
+                  <div>
+                    <br></br><br></br>
+                    <div className="relative max-w-6xl mx-auto h-0 pointer-events-none" aria-hidden="true">
+                      <img style={{ marginRight: '-1.5%' }} className="mx-auto" src={HeroImage} width="1024" height="504" alt="Hero" />
+                    </div>
+                    <div className="relative max-w-6xl mx-auto h-0 pointer-events-none" aria-hidden="true">
+                      <img style={{ marginRight: '-1.5%' }} className="mx-auto" src={HeroImage2} width="1024" height="504" alt="Hero" />
+                    </div>
+                    <div className="relative max-w-6xl mx-auto h-0 pointer-events-none" aria-hidden="true">
+                      <img style={{ marginRight: '-1.5%' }} className="mx-auto" src={HeroImage3} width="1024" height="504" alt="Hero" />
+                    </div>
+                    <div className="relative max-w-6xl mx-auto h-0 pointer-events-none" aria-hidden="true">
+                      <img style={{ marginRight: '-1.5%' }} className="mx-auto" src={HeroImage4} width="1024" height="504" alt="Hero" />
+                    </div>
+                  </div>
 
                 </div>
+
 
               </div>
             </div>

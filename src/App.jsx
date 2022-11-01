@@ -20,6 +20,7 @@ import Contact from './pages/Contact';
 import Help from './pages/Help';
 import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
+import Con from './pages/Gratz';
 import ResetPassword from './pages/ResetPassword';
 import PageNotFound from './pages/PageNotFound';
 
@@ -53,6 +54,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/help" element={<Help />} />
+        <Route path="/congratz" element={<Con />} />
         <Route path="/" element={<SignIn />} />
         <Route path="/registerwallet" element={<SignUp />} />
         <Route path="/reset-password" element={<ResetPassword />} />
